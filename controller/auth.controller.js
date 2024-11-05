@@ -22,5 +22,3 @@ authController.authenticate = (req, res, next) => {
     }
 };
 module.exports = authController;
-
-// 미들웨어

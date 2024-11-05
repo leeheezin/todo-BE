@@ -44,7 +44,7 @@ userController.getUser= async (req,res)=>{
         }
         res.status(200).json({status:"success", user})
     } catch (error) {
-        res.status(400).json({status:"login fail", message: error.message})
+        res.status(400).json({status:"fail", message: error.message})
     }
 }
 module.exports = userController
